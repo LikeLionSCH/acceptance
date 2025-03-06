@@ -205,7 +205,7 @@ const userData = [
   },
   {
     name: "안채연",
-    course: "프론트엔드",
+    course: "백엔드",
     major: "컴퓨터소프트웨어공학과",
     url: "192e83d6-c1ba-4582-b064-9546e120c9f4",
   },

@@ -2,7 +2,7 @@
   [636],
   {
     4454: (_, n, p) => {
-      ;(window.next_P = window.next_P || []).push([
+      ;(window._next_P = window._next_P || []).push([
         "/_app",
         function () {
           return p(8153)

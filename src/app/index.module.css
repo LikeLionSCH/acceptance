@@ -14,7 +14,7 @@
 }
 
 .postcard-back {
-  background-image: url(./back.png);
+  background-image: url("/back.png");
   background-color: #f2e8de;
   background-size: contain;
 }

@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-  src: url(/acceptance/out/next/static/media/ba015fad6dcf6784-s.woff2)
+  src: url(/acceptance/next/static/media/ba015fad6dcf6784-s.woff2)
     format("woff2");
   unicode-range: u+0100-02ba, u+02bd-02c5, u+02c7-02cc, u+02ce-02d7, u+02dd-02ff,
     u+0304, u+0308, u+0329, u+1d00-1dbf, u+1e00-1e9f, u+1ef2-1eff, u+2020,
@@ -14,7 +14,7 @@
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-  src: url(/acceptance/out/next/static/media/569ce4b8f30dc480-s.p.woff2)
+  src: url(/acceptance/next/static/media/569ce4b8f30dc480-s.p.woff2)
     format("woff2");
   unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da,
     u+02dc, u+0304, u+0308, u+0329, u+2000-206f, u+20ac, u+2122, u+2191, u+2193,
@@ -28,11 +28,11 @@
   line-gap-override: 0%;
   size-adjust: 104.76%;
 }
-.__className_5d5710 {
+.__className_5207f7 {
   font-family: Geist, Geist Fallback;
   font-style: normal;
 }
-.__variable_5d5710 {
+.__variable_5207f7 {
   --font-geist-sans: "Geist", "Geist Fallback";
 }
 @font-face {
@@ -40,7 +40,7 @@
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-  src: url(/acceptance/out/next/static/media/747892c23ea88013-s.woff2)
+  src: url(/acceptance/next/static/media/747892c23ea88013-s.woff2)
     format("woff2");
   unicode-range: u+0100-02ba, u+02bd-02c5, u+02c7-02cc, u+02ce-02d7, u+02dd-02ff,
     u+0304, u+0308, u+0329, u+1d00-1dbf, u+1e00-1e9f, u+1ef2-1eff, u+2020,
@@ -51,7 +51,7 @@
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
-  src: url(/acceptance/out/next/static/media/93f479601ee12b01-s.p.woff2)
+  src: url(/acceptance/next/static/media/93f479601ee12b01-s.p.woff2)
     format("woff2");
   unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da,
     u+02dc, u+0304, u+0308, u+0329, u+2000-206f, u+20ac, u+2122, u+2191, u+2193,
@@ -65,11 +65,11 @@
   line-gap-override: 0%;
   size-adjust: 134.59%;
 }
-.__className_9cd1a4 {
+.__className_5beae7 {
   font-family: Geist Mono, Geist Mono Fallback;
   font-style: normal;
 }
-.__variable_9cd1a4 {
+.__variable_5beae7 {
   --font-geist-mono: "Geist Mono", "Geist Mono Fallback";
 }
 .fixed {
@@ -108,7 +108,7 @@
 }
 @font-face {
   font-family: Pretendard;
-  src: url(/acceptance/out/next/static/media/Pretendard-Medium.12f0acdc.woff2);
+  src: url(/acceptance/next/static/media/Pretendard-Medium.12f0acdc.woff2);
 }
 body {
   color: var(--foreground);

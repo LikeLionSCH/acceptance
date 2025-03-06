@@ -159,7 +159,7 @@
       )
     })(),
     (r.tu = (e) => r.tt().createScriptURL(e)),
-    (r.p = "/acceptance/out/next/"),
+    (r.p = "/acceptance/next/"),
     (() => {
       var e = { 68: 0, 940: 0, 658: 0 }
       ;(r.f.j = (t, o) => {

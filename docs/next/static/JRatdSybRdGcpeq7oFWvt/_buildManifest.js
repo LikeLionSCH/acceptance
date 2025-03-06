@@ -5,7 +5,7 @@
       beforeFiles: [
         {
           has: void 0,
-          source: "/acceptance/out/next/:path+",
+          source: "/acceptance/next/:path+",
           destination: "/next/:path+",
         },
       ],

@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: "/acceptance/out",
+  assetPrefix: "/acceptance",
 }
 
 export default nextConfig

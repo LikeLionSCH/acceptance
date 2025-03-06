@@ -4348,7 +4348,7 @@
       function y(e) {
         return i.use ? { fetchPriority: e } : { fetchpriority: e }
       }
-      "undefined" == typeof window && (globalThis._next_IMAGE_IMPORTED = !0)
+      "undefined" == typeof window && (globalThis.next_IMAGE_IMPORTED = !0)
       let b = (0, i.forwardRef)((e, t) => {
         let {
             src: r,
@@ -4619,7 +4619,7 @@
           )
         let D = I.loader || F
         delete I.loader, delete I.srcSet
-        let N = "_next_img_default" in D
+        let N = "next_img_default" in D
         if (N) {
           if ("custom" === s.loader)
             throw Error(
@@ -4911,7 +4911,7 @@
           .map((e, t) => {
             let o = e.key || t
             if (
-              n.env._next_OPTIMIZE_FONTS &&
+              n.env.next_OPTIMIZE_FONTS &&
               !r &&
               "link" === e.type &&
               e.props.href &&
@@ -5096,7 +5096,7 @@
             return n
           },
         }),
-        (r._next_img_default = !0)
+        (r.next_img_default = !0)
       let n = r
     },
     5044: (e, t, r) => {

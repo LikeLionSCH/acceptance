@@ -2,7 +2,7 @@
   [731],
   {
     9564: (_, n, e) => {
-      ;(window._next_P = window._next_P || []).push([
+      ;(window.next_P = window.next_P || []).push([
         "/_error",
         function () {
           return e(2696)

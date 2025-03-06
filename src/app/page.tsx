@@ -125,7 +125,7 @@ export default function Postcard() {
           ref={imageRef}
           className={styles["postcard-image"]}
           alt=""
-          src="/front.png"
+          src="./front.png"
           width="0"
           height="0"
         />

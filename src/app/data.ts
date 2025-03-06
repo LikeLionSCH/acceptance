@@ -203,6 +203,12 @@ const userData = [
     major: "정보통신공학과",
     url: "f3599b75-99a6-4d2a-a421-4874aa938990",
   },
+  {
+    name: "안채연",
+    course: "프론트엔드",
+    major: "컴퓨터소프트웨어공학과",
+    url: "192e83d6-c1ba-4582-b064-9546e120c9f4",
+  },
 ]
 
 export default userData

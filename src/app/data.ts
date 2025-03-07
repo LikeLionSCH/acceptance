@@ -75,7 +75,7 @@ const userData = [
     name: "임찬혁",
     course: "백엔드",
     major: "의료IT공학과",
-    url: "d98ac684-41e5-45c7-81ec-a551acf52b35,",
+    url: "d98ac684-41e5-45c7-81ec-a551acf52b35",
   },
   {
     name: "이석현",

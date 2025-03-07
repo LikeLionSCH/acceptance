@@ -115,7 +115,7 @@
       "use strict"
       function r(e) {
         var t, r
-        ;(t = self._next_s),
+        ;(t = self.next_s),
           (r = () => {
             e()
           }),
@@ -302,7 +302,7 @@
       "loading" === document.readyState
         ? document.addEventListener("DOMContentLoaded", j, !1)
         : setTimeout(j)
-      let w = (self._next_f = self._next_f || [])
+      let w = (self.next_f = self.next_f || [])
       w.forEach(S), (w.push = S)
       let T = new ReadableStream({
           start(e) {
@@ -376,9 +376,9 @@
               children: (0, l.jsx)(k, { children: (0, l.jsx)(A, {}) }),
             }),
           }),
-          t = window._next_root_layout_missing_tags,
+          t = window.next_root_layout_missing_tags,
           r = !!(null == t ? void 0 : t.length)
-        "_next_error__" === document.documentElement.id || r
+        "next_error__" === document.documentElement.id || r
           ? i.default.createRoot(m, D).render(e)
           : s.default.startTransition(() =>
               i.default.hydrateRoot(m, e, { ...D, formState: R })
@@ -484,7 +484,7 @@
                   let t = document.createElement("div")
                   return (
                     (t.ariaLive = "assertive"),
-                    (t.id = "_next-route-announcer__"),
+                    (t.id = "next-route-announcer__"),
                     (t.role = "alert"),
                     (t.style.cssText =
                       "position:absolute;border:0;height:1px;margin:-1px;padding:0;width:1px;clip:rect(0 0 0 0);overflow:hidden;white-space:nowrap;word-wrap:normal"),
@@ -1208,7 +1208,7 @@
         let { error: t } = e,
           r = null == t ? void 0 : t.digest
         return (0, o.jsxs)("html", {
-          id: "_next_error__",
+          id: "next_error__",
           children: [
             (0, o.jsx)("head", {}),
             (0, o.jsxs)("body", {
@@ -4581,7 +4581,7 @@
                 E)
               )
                 return v(t, j, P.toString(), M)
-              if (document.getElementById("_next-page-redirect"))
+              if (document.getElementById("next-page-redirect"))
                 return v(t, j, T, M)
               let x = (0, g.getOrCreatePrefetchCacheEntry)({
                   url: P,
@@ -7252,9 +7252,9 @@
             return n
           },
         })
-      let r = "_next_metadata_boundary__",
-        n = "_next_viewport_boundary__",
-        o = "_next_outlet_boundary__"
+      let r = "next_metadata_boundary__",
+        n = "next_viewport_boundary__",
+        o = "next_outlet_boundary__"
     },
     9478: (e, t, r) => {
       "use strict"

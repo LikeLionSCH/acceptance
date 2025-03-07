@@ -120,10 +120,10 @@ const userData = [
     url: "19e627f6-f6d6-45a1-85bf-3d27741fe596",
   },
   {
-    name: "정규채",
-    course: "백엔드",
-    major: "컴퓨터소프트웨어공학과",
-    url: "b60a854e-e14d-4cc6-a8ed-c1bbe6758230",
+    name: "황승재",
+    course: "프론트엔드",
+    major: "의료IT공학과",
+    url: "8ae5f68d-a911-4e06-a7ee-9940cb0b2812",
   },
   {
     name: "이남경",

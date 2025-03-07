@@ -759,12 +759,12 @@
       async function Y(e) {
         void 0 === e && (e = {}),
           B.default.onSpanEnd(W.default),
-          (o = JSON.parse(document.getElementById("_next_DATA__").textContent)),
-          (window._next_DATA__ = o),
+          (o = JSON.parse(document.getElementById("next_DATA__").textContent)),
+          (window.next_DATA__ = o),
           (h = o.defaultLocale)
         let t = o.assetPrefix || ""
         if (
-          (self._next_set_public_path__("" + t + "/next/"),
+          (self.next_set_public_path__("" + t + "/next/"),
           (0, T.setConfig)({
             serverRuntimeConfig: {},
             publicRuntimeConfig: o.runtimeConfig || {},
@@ -782,12 +782,11 @@
           return i.routeLoader.onEntrypoint(t, r)
         }
         return (
-          window._next_P &&
-            window._next_P.map((e) => setTimeout(() => l(e), 0)),
-          (window._next_P = []),
-          (window._next_P.push = l),
+          window.next_P && window.next_P.map((e) => setTimeout(() => l(e), 0)),
+          (window.next_P = []),
+          (window.next_P.push = l),
           ((u = (0, x.default)()).getIsSsr = () => n.isSsr),
-          (s = document.getElementById("_next")),
+          (s = document.getElementById("next")),
           { assetPrefix: t }
         )
       }
@@ -809,7 +808,7 @@
               value: (0, k.adaptForSearchParams)(n),
               children: (0, g.jsx)(k.PathnameContextProviderAdapter, {
                 router: n,
-                isAutoExport: null != (t = self._next_DATA__.autoExport) && t,
+                isAutoExport: null != (t = self.next_DATA__.autoExport) && t,
                 children: (0, g.jsx)(F.PathParamsContext.Provider, {
                   value: (0, k.adaptForPathParams)(n),
                   children: (0, g.jsx)(v.RouterContext.Provider, {
@@ -1121,8 +1120,8 @@
         } catch (e) {
           t = (0, M.getProperError)(e)
         }
-        window._next_PRELOADREADY &&
-          (await window._next_PRELOADREADY(o.dynamicIds)),
+        window.next_PRELOADREADY &&
+          (await window.next_PRELOADREADY(o.dynamicIds)),
           (n = (0, I.createRouter)(o.page, o.query, a, {
             initialProps: o.props,
             pageLoader: i,
@@ -1581,7 +1580,7 @@
             }, [e]),
             (0, o.jsx)("p", {
               "aria-live": "assertive",
-              id: "_next-route-announcer__",
+              id: "next-route-announcer__",
               role: "alert",
               style: s,
               children: t,
@@ -2181,7 +2180,7 @@
                   nonce: P,
                   dangerouslySetInnerHTML: {
                     __html:
-                      "(self._next_s=self._next_s||[]).push(" +
+                      "(self.next_s=self.next_s||[]).push(" +
                       JSON.stringify([r, { ..._, id: t }]) +
                       ")",
                   },
@@ -2193,7 +2192,7 @@
                   nonce: P,
                   dangerouslySetInnerHTML: {
                     __html:
-                      "(self._next_s=self._next_s||[]).push(" +
+                      "(self.next_s=self.next_s||[]).push(" +
                       JSON.stringify([0, { ..._, id: t }]) +
                       ")",
                   },
@@ -2214,7 +2213,7 @@
         }
         return null
       }
-      Object.defineProperty(g, "_nextScript", { value: !0 })
+      Object.defineProperty(g, "nextScript", { value: !0 })
       let y = g
       ;("function" == typeof t.default ||
         ("object" == typeof t.default && null !== t.default)) &&
@@ -2398,7 +2397,7 @@
       "use strict"
       Object.defineProperty(t, "__esModule", { value: !0 }),
         r(8407),
-        (self._next_set_public_path__ = (e) => {
+        (self.next_set_public_path__ = (e) => {
           r.p = e
         }),
         ("function" == typeof t.default ||
@@ -2951,8 +2950,8 @@
         U = ["/_document", "/_app", "/_error"],
         k = "public",
         F = "static",
-        H = "_next_DROP_CLIENT_FILE__",
-        B = "_next_BUILTIN_DOCUMENT__",
+        H = "next_DROP_CLIENT_FILE__",
+        B = "next_BUILTIN_DOCUMENT__",
         W = "__barrel_optimize__",
         G = "client-reference-manifest",
         q = "server-reference-manifest",
@@ -3163,7 +3162,7 @@
           .map((e, t) => {
             let o = e.key || t
             if (
-              n.env._next_OPTIMIZE_FONTS &&
+              n.env.next_OPTIMIZE_FONTS &&
               !r &&
               "link" === e.type &&
               e.props.href &&
@@ -3654,7 +3653,7 @@
             if (
               (!u ||
                 s ||
-                u.includes("_next_data_catchall") ||
+                u.includes("next_data_catchall") ||
                 u.includes("/_error") ||
                 u.includes("/404") ||
                 (s = u),
@@ -4281,7 +4280,7 @@
             }
             B &&
               "/_error" === this.pathname &&
-              (null == (f = self._next_DATA__.props)
+              (null == (f = self.next_DATA__.props)
                 ? void 0
                 : null == (c = f.pageProps)
                 ? void 0
@@ -4316,7 +4315,7 @@
               )
                 throw Error("Unexpected middleware effect on " + this.pathname)
               "/_error" === this.pathname &&
-                (null == (C = self._next_DATA__.props)
+                (null == (C = self.next_DATA__.props)
                   ? void 0
                   : null == (j = C.pageProps)
                   ? void 0
@@ -4476,8 +4475,8 @@
               (O && ("/_error" === r || "/404" === r) && (O.effect = void 0),
               h &&
                 (O
-                  ? (O.json = self._next_DATA__.props)
-                  : (O = { json: self._next_DATA__.props })),
+                  ? (O.json = self.next_DATA__.props)
+                  : (O = { json: self.next_DATA__.props })),
               t(),
               (null == O
                 ? void 0
@@ -4892,7 +4891,7 @@
             (this.components["/_app"] = { Component: i, styleSheets: [] }),
             (this.events = Y.events),
             (this.pageLoader = o)
-          let v = (0, p.isDynamicRoute)(e) && self._next_DATA__.autoExport
+          let v = (0, p.isDynamicRoute)(e) && self.next_DATA__.autoExport
           if (
             ((this.basePath = ""),
             (this.sub = c),
@@ -4901,10 +4900,10 @@
             (this.isSsr = !0),
             (this.isLocaleDomain = !1),
             (this.isReady = !!(
-              self._next_DATA__.gssp ||
-              self._next_DATA__.gip ||
-              self._next_DATA__.isExperimentalCompile ||
-              (self._next_DATA__.appGip && !self._next_DATA__.gsp) ||
+              self.next_DATA__.gssp ||
+              self.next_DATA__.gip ||
+              self.next_DATA__.isExperimentalCompile ||
+              (self.next_DATA__.appGip && !self.next_DATA__.gsp) ||
               (v || self.location.search, 0)
             )),
             (this.state = {
@@ -5666,10 +5665,10 @@
       function d(e) {
         let t
         let r = Object.assign({}, e.query)
-        delete r._nextLocale,
-          delete r._nextDefaultLocale,
-          delete r._nextDataReq,
-          delete r._nextInferredLocaleFromDefault,
+        delete r.nextLocale,
+          delete r.nextDefaultLocale,
+          delete r.nextDataReq,
+          delete r.nextInferredLocaleFromDefault,
           delete r[s.NEXT_RSC_UNION_QUERY]
         let u = e.destination
         for (let t of Object.keys({ ...e.params, ...r }))
@@ -7457,10 +7456,10 @@
           },
         },
         et = {
-          edgeSSREntry: "_next_edge_ssr_entry__",
-          metadata: "_next_metadata__",
-          metadataRoute: "_next_metadata_route__",
-          metadataImageMeta: "_next_metadata_image_meta__",
+          edgeSSREntry: "next_edge_ssr_entry__",
+          metadata: "next_metadata__",
+          metadataRoute: "next_metadata_route__",
+          metadataImageMeta: "next_metadata_image_meta__",
         }
     },
     466: (e, t) => {
